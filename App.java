@@ -27,19 +27,19 @@ public class App {
         //vähennetään money-1 jokaisella kierroksella
         money = money-1;
 
-        // Tarkista onko joku luvuista 7
+        // Tarkista onko joku luvuista  numero 7
         if (num1==7 || num2==7 || num3==7)
         {
             System.out.println("Onnea voitit 3e");
             money = money +3;
         }
-
+        // Tarkista onko kaksi luvuista numero 7
         else if (num1==7 && num2==7 || num1==7 && num3==7 || num2==7 && num3==7)
         {
             System.out.println("Onnea voitit 5e");
             money = money+5;
         }
-
+        // Tarkista onko kaikki luvut numeroita 7
         else if (num1==7 && num2==7 && num3==7)
         {
             System.out.println("Onnea voitit 7e");
