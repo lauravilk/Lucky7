@@ -70,7 +70,7 @@ public class App {
             i++;
             continue;
         }
-
+        // peli päättyy
         else if (input.equals("no"))
         {
             break;
